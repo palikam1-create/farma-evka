@@ -124,7 +124,7 @@
 <section id="kontakt">
     <h2>Kontakt</h2>
     <p><strong>Telefón:</strong> 0905 130 502</p>
-    <p><strong>Email:</strong> palikam1@gmail.comk</p>
+    <p><strong>Email:</strong> palikam1@gmail.com</p>
     <p><strong>Adresa:</strong> Rovinka </p>
 </section>
 
