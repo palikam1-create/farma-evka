@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domáce vajíčka z farmy</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4e9dc;
+            color: #333;
+            img src="D:\Pavel\Pictures" alt="Vajicka.jpg";
+        }
+
+        header {
+            background: #5a3e2b;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('Vajicka.jpg') center/cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 48px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        footer {
+            background: #5a3e2b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Farma Evka</h2>
+    <nav>
+        <a href="#o-nas">O nás</a>
+        <a href="#ponuka">Ponuka</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Čerstvé domáce vajíčka každý deň</h1>
+</div>
+
+<section id="o-nas">
+    <h2>O našej farme</h2>
+    <p>
+        Naša rodinná farma sa špecializuje na chov sliepok vo voľnom výbehu.
+        Dbáme na kvalitu krmiva, zdravie zvierat a čerstvosť našich produktov.
+    </p>
+</section>
+
+<section id="ponuka">
+    <h2>Naša ponuka</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Vajíčka veľkosť M</h3>
+            <p>0,25 € / kus</p>
+        </div>
+        <div class="card">
+            <h3>Vajíčka veľkosť L</h3>
+            <p>0,30 € / kus</p>
+        </div>
+        <div class="card">
+            <h3>Vajíčka veľkosť XL</h3>
+            <p>0,35 € / kus</p>
+        </div>
+    </div>
+</section>
+
+<section id="kontakt">
+    <h2>Kontakt</h2>
+    <p><strong>Telefón:</strong> 0905 130 502</p>
+    <p><strong>Email:</strong> palikam1@gmail.comk</p>
+    <p><strong>Adresa:</strong> Rovinka </p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Farma Evka – Predaj domácich vajíčok</p>
+</footer>
+
+</body>
+</html>
